@@ -1,10 +1,8 @@
-# Subir a GitHub - ArenaOS 2.1.25
+# Subir update v2.1.26 a GitHub
 
-Sube estos archivos al repo `garicabrera95/arenaos-updates`:
+Sube estos archivos al repo `arenaos-updates`:
 
 - `latest.json` en la raíz del repo
-- `releases/ArenaOS-update-2.1.25.zip` dentro de la carpeta `releases`
+- `releases/ArenaOS-update-2.1.26.zip` dentro de la carpeta `releases`
 
-Luego ArenaOS debe detectar la versión 2.1.25 desde:
-
-`https://raw.githubusercontent.com/garicabrera95/arenaos-updates/main/latest.json`
+Luego ArenaOS debe detectar la versión `2.1.26` desde GitHub.

@@ -1,13 +1,14 @@
 {
-  "version": "2.1.25",
-  "title": "ArenaOS 2.1.25 - Limpieza de reinicio de updates",
+  "version": "2.1.26",
+  "minVersion": "2.1.24",
+  "title": "ArenaOS 2.1.26 - Estado de updates corregido",
   "notes": [
-    "Corrige el estado de reinicio pendiente después de completar un update.",
-    "Separa el estado de updates entre la app instalada y npm run desktop para evitar bloqueos de prueba.",
-    "Mantiene el diseño corregido del módulo Actualizaciones.",
+    "Corrige estados viejos de actualización que dejaban botones activos después de reiniciar.",
+    "Evita aplicar ZIPs si la versión descargada ya no es más nueva que la instalada.",
+    "Separa mejor los estados de desarrollo e instalación para pruebas con npm run desktop.",
     "No toca configuración local, backups ni datos del negocio."
   ],
-  "downloadUrl": "https://raw.githubusercontent.com/garicabrera95/arenaos-updates/main/releases/ArenaOS-update-2.1.25.zip",
-  "sha256": "38e3f939fa30373c0bdc9164ae2ba593b2ce11169f3644f435a21b0b361c097d",
-  "publishedAt": "2026-07-05T16:20:00-04:00"
+  "downloadUrl": "https://raw.githubusercontent.com/garicabrera95/arenaos-updates/main/releases/ArenaOS-update-2.1.26.zip",
+  "sha256": "e97427eb4959591aa11d61ba2face0dd00fbacdddd2975f0938afc2abf08db91",
+  "publishedAt": "2026-07-05T16:50:00.000Z"
 }
