@@ -1,11 +1,15 @@
 {
-  "version": "2.1.27",
-  "name": "ArenaOS production ready checks v2.1.27",
-  "downloadUrl": "https://raw.githubusercontent.com/garicabrera95/arenaos-updates/main/releases/ArenaOS_production_ready_checks_v2_1_27.zip",
-  "url": "https://raw.githubusercontent.com/garicabrera95/arenaos-updates/main/releases/ArenaOS_production_ready_checks_v2_1_27.zip",
-  "sha256": "e710c8a153161a6ddfac78cce9a43bbf73bd0ac7eae64172c9e0173b4b2fc3c9",
-  "size": 76305,
-  "notes": "Production-ready deployment cleanup: installer version/feed, default update feed, env examples, deployment checklist and blank feed auto-finalization. No POS UI changes.",
-  "mandatory": false,
+  "version": "2.1.28",
+  "title": "ArenaOS 2.1.28",
+  "notes": [
+    "Fix de updater: el botón Reiniciar ArenaOS queda visible hasta que se reinicie realmente.",
+    "Limpieza segura: el ZIP usado se borra después de confirmar la versión nueva tras reiniciar.",
+    "Seguridad: no permite aplicar un ZIP viejo si no coincide con la versión nueva detectada.",
+    "Compatibilidad del feed: acepta downloadUrl y url para evitar errores de descarga. No hay cambios de UI POS."
+  ],
+  "downloadUrl": "https://raw.githubusercontent.com/garicabrera95/arenaos-updates/main/releases/ArenaOS_update_restart_cleanup_v2_1_28.zip",
+  "url": "https://raw.githubusercontent.com/garicabrera95/arenaos-updates/main/releases/ArenaOS_update_restart_cleanup_v2_1_28.zip",
+  "sha256": "aad0bdea46f4d7ac041481b7395075cb7b06659fbead635926d13be4c33683d3",
+  "size": 76657,
   "publishedAt": "2026-07-05T00:00:00.000Z"
 }
