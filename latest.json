@@ -1,15 +1,15 @@
 {
-  "version": "2.1.28",
-  "title": "ArenaOS 2.1.28",
+  "version": "2.1.29",
+  "title": "ArenaOS 2.1.29",
   "notes": [
-    "Fix de updater: el botón Reiniciar ArenaOS queda visible hasta que se reinicie realmente.",
-    "Limpieza segura: el ZIP usado se borra después de confirmar la versión nueva tras reiniciar.",
-    "Seguridad: no permite aplicar un ZIP viejo si no coincide con la versión nueva detectada.",
-    "Compatibilidad del feed: acepta downloadUrl y url para evitar errores de descarga. No hay cambios de UI POS."
+    "Estaciones: tarjetas con altura más consistente para que modo libre y tiempo regular se vean alineados.",
+    "La zona de juego activo, timer y badges queda más estable visualmente entre estaciones ocupadas.",
+    "Incluye el fix anterior del updater: Reiniciar ArenaOS queda visible hasta que se reinicie realmente.",
+    "Limpieza segura: el ZIP usado se borra después de confirmar la versión nueva tras reiniciar. No toca datos, config, backups ni logs."
   ],
-  "downloadUrl": "https://raw.githubusercontent.com/garicabrera95/arenaos-updates/main/releases/ArenaOS_update_restart_cleanup_v2_1_28.zip",
-  "url": "https://raw.githubusercontent.com/garicabrera95/arenaos-updates/main/releases/ArenaOS_update_restart_cleanup_v2_1_28.zip",
-  "sha256": "aad0bdea46f4d7ac041481b7395075cb7b06659fbead635926d13be4c33683d3",
-  "size": 76657,
+  "downloadUrl": "https://raw.githubusercontent.com/garicabrera95/arenaos-updates/main/releases/ArenaOS_station_cards_consistency_v2_1_29.zip",
+  "url": "https://raw.githubusercontent.com/garicabrera95/arenaos-updates/main/releases/ArenaOS_station_cards_consistency_v2_1_29.zip",
+  "sha256": "c88d01560f3218a834116d6b91f296f12b6c41a8f0101f92a823fae2dda917da",
+  "size": 97475,
   "publishedAt": "2026-07-05T00:00:00.000Z"
 }
