@@ -1,23 +1,10 @@
-# Subir update ArenaOS 2.1.24 a GitHub
+# Subir a GitHub - ArenaOS 2.1.25
 
 Sube estos archivos al repo `garicabrera95/arenaos-updates`:
 
-```text
-latest.json
-releases/ArenaOS-update-2.1.24.zip
-```
+- `latest.json` en la raíz del repo
+- `releases/ArenaOS-update-2.1.25.zip` dentro de la carpeta `releases`
 
-Después configura en `C:\ArenaOS\config\.env`:
+Luego ArenaOS debe detectar la versión 2.1.25 desde:
 
-```env
-ARENAOS_UPDATE_FEED_URL=https://raw.githubusercontent.com/garicabrera95/arenaos-updates/main/latest.json
-ARENAOS_UPDATE_CHECK_INTERVAL_HOURS=6
-```
-
-Cierra y abre ArenaOS. Luego ve a:
-
-```text
-Configuración > Actualizaciones > Buscar actualizaciones
-```
-
-Debe aparecer ArenaOS 2.1.24.
+`https://raw.githubusercontent.com/garicabrera95/arenaos-updates/main/latest.json`
