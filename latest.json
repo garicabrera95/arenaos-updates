@@ -1,14 +1,10 @@
 {
-  "version": "2.1.26",
-  "minVersion": "2.1.24",
-  "title": "ArenaOS 2.1.26 - Estado de updates corregido",
-  "notes": [
-    "Corrige estados viejos de actualización que dejaban botones activos después de reiniciar.",
-    "Evita aplicar ZIPs si la versión descargada ya no es más nueva que la instalada.",
-    "Separa mejor los estados de desarrollo e instalación para pruebas con npm run desktop.",
-    "No toca configuración local, backups ni datos del negocio."
-  ],
-  "downloadUrl": "https://raw.githubusercontent.com/garicabrera95/arenaos-updates/main/releases/ArenaOS-update-2.1.26.zip",
-  "sha256": "e97427eb4959591aa11d61ba2face0dd00fbacdddd2975f0938afc2abf08db91",
-  "publishedAt": "2026-07-05T16:50:00.000Z"
+  "version": "2.1.27",
+  "name": "ArenaOS production ready checks v2.1.27",
+  "url": "https://raw.githubusercontent.com/garicabrera95/arenaos-updates/main/ArenaOS_production_ready_checks_v2_1_27.zip",
+  "sha256": "e710c8a153161a6ddfac78cce9a43bbf73bd0ac7eae64172c9e0173b4b2fc3c9",
+  "size": 76305,
+  "notes": "Production-ready deployment cleanup: installer version/feed, default update feed, env examples, deployment checklist and blank feed auto-finalization. No POS UI changes.",
+  "mandatory": false,
+  "publishedAt": "2026-07-05T00:00:00.000Z"
 }
